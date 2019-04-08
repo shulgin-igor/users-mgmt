@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "avatar-service",
+    "serviceIP": "",
+    "servicePort": 3001,
+    "serviceType": "avatar",
+    "serviceDescription": "Proceed user avatar and cover image actions",
+    "redis": {
+      "url": "redis",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

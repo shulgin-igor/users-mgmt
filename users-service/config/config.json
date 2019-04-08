@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "users-service",
+    "serviceIP": "",
+    "servicePort": 3000,
+    "serviceType": "users",
+    "serviceDescription": "Manage users",
+    "redis": {
+      "url": "redis",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
